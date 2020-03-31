@@ -1,0 +1,31 @@
+/* menu icon */
+.vivaldi {
+    height: 30px;
+    padding: 0px 0 0;
+}
+
+/* tabs */
+.win.normal #tabs-container.top, .linux.normal #tabs-container.top {
+    padding-top: 0px;
+}
+.linux #tabs-container.top {
+    padding-right: 0px;
+    border-bottom: 1px solid #7b99a9;
+}
+
+/* del - □ x */
+#browser .window-buttongroup {
+    display: none;
+}
+
+/* addres bar */
+.addressfield, .searchfield {    
+    border: none;
+    background-color: #00000000;
+}
+
+/* tab */
+.tab.active{
+    border: 1px solid #6f8086;
+    border-bottom: none;
+}
